@@ -131,7 +131,7 @@ public class MoveChecker {
         if (grayCells == null)
             return;
         for (Cell cell : grayCells) {
-            cell.setMove(cell.getMove());
+            cell.setMove(null);
         }
     }
 }
